@@ -1,0 +1,243 @@
+/* Global CSS reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+  }
+  
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #121212;
+    --main-font: 2.2rem;
+    --p-font: 1.1rem;
+  }
+  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+  }
+  
+  :root{
+    --bg-color: #ffffff;
+    --text-color: #121212;
+    --main-font: 2.2rem;
+    --p-font: 1.1rem;
+  }
+  
+    .topnav {
+      width: 100%;
+      height:90px;
+      background-color: #333;
+      position: fixed; 
+      text-align: center;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 0;
+      }
+    
+      .topnav a {
+      display: flexbox;
+      align-content: flex-end;
+      color: wheat;
+      text-align: center;
+      padding: 0px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      
+      }
+      
+      .topnav a:hover {
+      background-color: wheat;
+      color: #333;
+      
+      }
+      
+      .topnav .icon {
+      display: none;
+      
+      }
+      
+      @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {display: none;}
+      .topnav a.icon {
+        position: absolute;
+        left: 0;
+       display: flex;
+      
+      }
+      }
+      
+      @media screen and (max-width: 600px) {
+      .topnav.responsive {position: fixed;}
+      .topnav.responsive .icon {
+        position: absolute;
+        left: 0; 
+        top: 39%;
+      
+      }
+      .topnav.responsive a {
+        justify-content: center;
+        display: flex;
+        z-index: 999
+        
+      }
+      }
+    
+    
+    .navbar-brand {
+      position: fixed;
+      right:1%;
+      z-index: 999;
+      top: 0;
+    }
+    
+    
+      /* Style the container element */
+      .container {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        padding-top: 8rem;
+      }
+      
+     
+    
+    
+  
+  
+  #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+  }
+
+ 
+  #cart-total{
+    position: fixed;
+    top: 0;
+    right: 3%;
+    margin-top: 100px;
+    width: 70%;
+    border:2px solid #121212;
+    width: fit-content;
+    padding: 10px;
+  background-color:#333333;
+  border-radius: 5px;
+  color: wheat;
+  }
+  
+
+  #back-to-cart{
+    position: fixed;
+    top: 0;
+    left: 3%;
+    margin-top: 100px;
+    width: 70%;
+    border:2px solid #121212;
+    width: fit-content;
+    padding: 10px;
+  background-color:#333333;
+  border-radius: 5px;
+  color: wheat;
+  }
+
+
+  form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input, select {
+    width: 100%;
+    padding:5px 20px;
+    margin: 800px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+  }
+  
+  input:focus, select:focus {
+    border: 2px solid #555;
+  }
+  
+
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .contact{
+    width: 100%;
+      padding: 80px 17%;
+      background: var(--text-color);
+  }
+  .main-contact{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+      gap: 2rem;
+      margin-bottom: 3rem;
+  }
+  .contact-content li{
+      margin-bottom: 15px;
+  }
+  .contact-content li a{
+      display: block;
+      color: wheat;
+      font-size: var(--p-font);
+      font-weight: 600;
+      transition: all .40s ease;
+  }
+  .contact-content li a:hover{
+      transform: translateX(-10px);
+  }
+
+  
+  .last{
+        width: 100%;
+      text-align: center;
+        padding: 20px 0px;
+        color: var(--bg-color);
+      background: #f0f2f5;
+  }
+  .last p{
+      color: var(--text-color);
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 2px;
+  }
+  
+  
+
+  
+
+  
+
+  

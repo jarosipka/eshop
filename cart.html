@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Košík</title>
+
+ <!----Custom css link---->
+   
+ 
+ <link rel="stylesheet" href="css/cart.css" />
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <body>
+  <!----header start--->
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Domov</a>
+      <a href="#contact">Kontakt</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+  </header>
+
+
+<div id="container">
+
+  <button id="back-to-shop">Späť</button>
+
+    <div id="cart-total" >
+        <span>Celková suma:</span>
+        <span id="total-price"></span>
+      </div>
+      
+   <div id="cart-container"></div>
+   <button class="send-order"> </button>
+</div>
+
+ 
+  <!----contact start--->
+    <section class="contact" id="contact">
+      <div class="main-contact">
+        <div class="contact-content">
+          <li><a href="#">Doprava a vrátenie tovaru</a></li>
+          <li><a href="#">Politika obchodu</a></li>
+          <li><a href="#">Platobné metódy</a></li>
+        </div>
+
+        <div class="contact-content">
+          <li><a href="/contact-form/index.html">Kontaktný formulár</a></li>
+          <li><a href="#">Tel: 123-456-7890</a></li>
+        </div>
+
+        <div class="contact-content">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="www.linkedin.com/in/jaro-sipka">LinkedIn</a></li>
+        </div>
+      </div>
+
+      <div class="action">
+        <form>
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="submit" name="submit" value="Submit" required />
+        </form>
+      </div>
+    </section>
+
+   <div class="last"> 
+      <p>© 2023 by JS</p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   
+    <script src="js/cart.js"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+</body>
+</html>
+
