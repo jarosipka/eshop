@@ -133,6 +133,7 @@ body {
  background-color: #333333;
 border-radius: 5px;
 color: wheat;
+z-index: 1000;
 }
 
 
@@ -148,6 +149,7 @@ color: wheat;
 background-color:#333333;
 border-radius: 5px;
 color:wheat;
+z-index: 1000;
 }
 
 
